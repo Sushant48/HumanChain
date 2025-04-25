@@ -51,17 +51,15 @@ project/├── controllers/
 ```bash
 git clone <your-repo-url>
 cd project
+npm install
 ```
-2. Install Dependencies
-    npm install
-
-3. Create a .env File
+2. Create a .env File
     Create a .env file in the root with the following:
     PORT=5000
     MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
     Replace with your actual MongoDB URI.
     
-4. Run the Server
+3. Run the Server
     npm run dev
 Server will run at http://localhost:5000
 

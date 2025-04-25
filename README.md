@@ -1,6 +1,6 @@
 # 🛡️ AI Safety Incident Log Service - HumanChain
 
-A simple RESTful API service built with the **MERN stack** to log and manage AI safety incidents.
+- A simple RESTful API service built with the **MERN stack** to log and manage AI safety incidents.
 
 ---
 
@@ -25,22 +25,22 @@ A simple RESTful API service built with the **MERN stack** to log and manage AI 
 
 ## 📁 Folder Structure
 
-project/├── controllers/ 
-            │ └── incidentController.js 
-        ├── models/ 
-            │ └── incidentModel.js 
-        ├── middlewares/ 
-            │ └── errorMiddleware.js 
-        ├── routes/ 
-            │ └── incidentRoutes.js 
-        ├── config/ 
-            │ └── db.js 
-        ├── seed.js 
-        ├── constants.js 
-        ├── server.js 
-        ├── .env 
-        ├── package.json 
-        └── README.md
+-project/├── controllers/ 
+-            │ └── incidentController.js 
+-        ├── models/ 
+-            │ └── incidentModel.js 
+-        ├── middlewares/ 
+-           │ └── errorMiddleware.js 
+-        ├── routes/ 
+-            │ └── incidentRoutes.js 
+-       ├── config/ 
+-            │ └── db.js 
+-        ├── seed.js 
+-        ├── constants.js 
+-        ├── server.js 
+-        ├── .env 
+-        ├── package.json 
+-        └── README.md
 
 
 ---
@@ -51,30 +51,28 @@ project/├── controllers/
 ```bash
 git clone <your-repo-url>
 cd project
+npm install
 ```
-2. Install Dependencies
-    npm install
+2. Create a .env File
+-    Create a .env file in the root with the following:
+-    PORT=5000
+-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
+-    Replace with your actual MongoDB URI.
 
-3. Create a .env File
-    Create a .env file in the root with the following:
-    PORT=5000
-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
-    Replace with your actual MongoDB URI.
-    
-4. Run the Server
-    npm run dev
-Server will run at http://localhost:5000
+3. Run the Server
+-    npm run dev
+- Server will run at http://localhost:5000
 
 ---
 
 
 ## 🧪 API Endpoints
 
-Method	       Endpoint	        Description
-GET	           /incidents	    Get all incidents
-POST	       /incidents	    Create a new incident
-GET	           /incidents/:id	Get a single incident by ID
-DELETE	       /incidents/:id	Delete an incident by ID
+- Method	       Endpoint	        Description
+- GET	           /incidents	    Get all incidents
+- POST	            /incidents	    Create a new incident
+- GET	           /incidents/:id	Get a single incident by ID
+- DELETE	       /incidents/:id	Delete an incident by ID
 
 ---
 
@@ -94,15 +92,15 @@ To insert 2–3 sample incidents into the DB for testing:
 
 
 ## 📮 Sample Response - GET /incidents
-[
-  {
-    "id": 1,
-    "title": "Bias in AI recruiting",
-    "description": "AI tool showed gender bias in hiring process.",
-    "severity": "Medium",
-    "reported_at": "2025-04-25T10:20:00Z"
-  }
-]
+    [
+        {
+            "id": 1,
+            "title": "Bias in AI recruiting",
+            "description": "AI tool showed gender bias in hiring process.",
+            "severity": "Medium",
+            "reported_at": "2025-04-25T10:20:00Z"
+        }
+    ]
 
 
 ## ✅ Validation
@@ -113,11 +111,11 @@ To insert 2–3 sample incidents into the DB for testing:
 
 
 ## 👨‍💻 Author
-Sushant Singh
-MERN Stack Developer
-Contact: sushantsingh408sks@gmail.com
+- Sushant Singh
+- MERN Stack Developer
+- Contact: sushantsingh408sks@gmail.com
 
 ## 🧠 Notes
-Followed REST best practices
-Error handling implemented
-Project is clean, modular, and easy to maintain
+- Followed REST best practices
+- Error handling implemented
+- Project is clean, modular, and easy to maintain

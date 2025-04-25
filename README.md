@@ -56,7 +56,7 @@ npm install
 2. Create a .env File
 -    Create a .env file in the root with the following:
 -    PORT=5000
--    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
+-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net
 -    Replace with your actual MongoDB URI.
  
 3. Run the Server

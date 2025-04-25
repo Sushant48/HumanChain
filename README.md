@@ -54,25 +54,14 @@ cd project
 npm install
 ```
 2. Create a .env File
-<<<<<<< HEAD
 -    Create a .env file in the root with the following:
 -    PORT=5000
 -    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
 -    Replace with your actual MongoDB URI.
-
+ 
 3. Run the Server
 -    npm run dev
 - Server will run at http://localhost:5000
-=======
-    Create a .env file in the root with the following:
-    PORT=5000
-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/incident-log?retryWrites=true&w=majority
-    Replace with your actual MongoDB URI.
-    
-3. Run the Server
-    npm run dev
-Server will run at http://localhost:5000
->>>>>>> 7711662ded867c820326b53a441bfc48d62fcdb4
 
 ---
 
@@ -120,19 +109,12 @@ To insert 2–3 sample incidents into the DB for testing:
 - Returns appropriate HTTP error codes (e.g., 400, 404)
 
 
-
 ## 👨‍💻 Author
 - Sushant Singh
 - MERN Stack Developer
 - Contact: sushantsingh408sks@gmail.com
 
 ## 🧠 Notes
-<<<<<<< HEAD
 - Followed REST best practices
 - Error handling implemented
 - Project is clean, modular, and easy to maintain
-=======
-Followed REST best practices
-Error handling implemented
-Project is clean, modular, and easy to maintain
->>>>>>> 7711662ded867c820326b53a441bfc48d62fcdb4
